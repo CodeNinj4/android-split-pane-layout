@@ -1,3 +1,7 @@
 <resources>
+    <dimen name="spl_default_pane_size_min">100dp</dimen>
     <dimen name="spl_default_splitter_size">12dp</dimen>
+    <dimen name="spl_default_splitter_button_size_md">60dp</dimen>
+    <dimen name="spl_default_splitter_button_size_od">36dp</dimen>
+    <dimen name="spl_default_splitter_button_radius">5dp</dimen>
 </resources>

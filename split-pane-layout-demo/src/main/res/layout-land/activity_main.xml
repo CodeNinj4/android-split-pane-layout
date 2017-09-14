@@ -7,16 +7,24 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     spl:orientation="horizontal"
-    spl:splitterSize="12dip"
+    spl:paneSizeMin="100dp"
+    spl:splitterSize="12dp"
+    spl:splitterButtonSizeMD="60dp"
+    spl:splitterButtonSizeOD="36dp"
+    spl:splitterButtonRadius="5dp"
     spl:splitterPosition="33%"
-    spl:splitterBackground="@drawable/splitter_bg_h">
+    spl:splitterBackground="#449944"
+    spl:splitterButtonBackground="#449944"
+    spl:splitterMovable="true"
+    spl:splitterDraggingBackground="#fff68e"
+    spl:splitterDraggingButtonBackground="#fff68e">
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:text="@string/hello_world" />
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:text="@string/hello_world" />
 </com.mobidevelop.spl.widget.SplitPaneLayout>
